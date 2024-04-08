@@ -39,7 +39,6 @@ public class Test
 					{
 						f = new Apple("APPLE","RED",true);
 						f.accept();
-						//f.display();
 						FruitBasket[index] = f;
 						System.out.println("FRUIT ADDED TO BASKET.");
 						index++;
@@ -148,6 +147,7 @@ public class Test
 				
 			default:
 				System.out.println("WRONG CHOICE.....");
+				break;
 			}	
 		}while(choice != 0);
 	}
