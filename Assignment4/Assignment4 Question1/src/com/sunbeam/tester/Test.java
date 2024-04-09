@@ -141,6 +141,8 @@ public class Test
 						{
 							FruitBasket[i].setFresh(false);
 						}
+						else
+							System.out.println("No Fruit present in Basket with SOUR taste");
 					}
 				}
 				break;
