@@ -60,7 +60,7 @@ public class Program {
 		if (stdList.contains(std))
 			System.out.println("Student with Roll no. 3 exists in LinkedList");
 		else
-			System.out.println("Student not found");
+			System.out.println("Student not found with Roll no. 3 in LinkedList");
 
 	}
 
